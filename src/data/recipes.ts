@@ -3,6 +3,7 @@ import { Recipe } from "../types/recipe";
 export const recipes: Recipe[] = [
   {
     id: "1",
+    image: require("../../assets/images/Nasi-Goreng-telor.jpg"),
     name: "Nasi Goreng Telur",
     category: "nasi",
     price: 8000,
@@ -15,6 +16,7 @@ export const recipes: Recipe[] = [
   },
   {
     id: "2",
+    image: require("../../assets/images/mie-kuah-sayur-mie-instan-foto-resep-utama.webp"),
     name: "Mie Instan Kuah Sayur",
     category: "mie",
     price: 6000,
@@ -26,6 +28,7 @@ export const recipes: Recipe[] = [
 
   {
     id: "3",
+    image: require("../../assets/images/telur-dadar-kecap-foto-resep-utama.webp"),
     name: "Telur Dadar Kecap",
     category: "telur",
     price: 4000,
@@ -38,6 +41,7 @@ export const recipes: Recipe[] = [
   },
   {
     id: "4",
+    image: require("../../assets/images/tumis-kangkung-foto-resep-utama.webp"),
     name: "Tumis Kangkung",
     category: "sayur",
     price: 5000,
@@ -49,6 +53,7 @@ export const recipes: Recipe[] = [
   },
   {
     id: "5",
+    image: require("../../assets/images/pisang-goreng-foto-resep-utama.webp"),
     name: "Pisang Goreng",
     category: "camilan",
     price: 7000,
@@ -60,6 +65,7 @@ export const recipes: Recipe[] = [
   },
   {
     id: "6",
+    image: require("../../assets/images/nasi-telur-ceplok-sambal-bawang-merah-foto-resep-utama.webp"),
     name: "Nasi Telur Ceplok Sambal",
     category: "nasi",
     price: 9000,
@@ -68,5 +74,94 @@ export const recipes: Recipe[] = [
     deskripsi:
       "Nasi dengan telur ceplok dan sambal pedas, cocok untuk sarapan atau makan siang",
     image: require("../../assets/images/nasi-telur-ceplok-sambal-bawang-merah-foto-resep-utama.webp"),
+  },
+  {
+    id: "7",
+    image: require("../../assets/images/indomie-mi-goreng.webp"),
+    name: "Mie Goreng Telur",
+    category: "mie",
+    price: 7000,
+    cookTime: 10,
+    ingredients: ["Mie instan", "Telur", "Kol", "Bawang putih", "Kecap manis"],
+    note: "Jangan rebus mie terlalu lama supaya tidak lembek",
+  },
+  {
+    id: "8",
+    image: require("../../assets/images/sayur-bening-bayam.webp"),
+    name: "Sayur Bening Bayam",
+    category: "sayur",
+    price: 4000,
+    cookTime: 10,
+    ingredients: [
+      "Bayam",
+      "Jagung manis",
+      "Bawang putih",
+      "Bawang merah",
+      "Garam",
+    ],
+    note: "Bayam cukup dimasak sebentar agar tidak pahit",
+  },
+  {
+    id: "9",
+    image: require("../../assets/images/tempe-orek.webp"),
+    name: "Tempe Orek Kecap",
+    category: "sayur",
+    price: 5000,
+    cookTime: 15,
+    ingredients: [
+      "Tempe",
+      "Kecap manis",
+      "Bawang merah",
+      "Bawang putih",
+      "Cabai",
+    ],
+    note: "Tahan sampai 2 hari, enak untuk bekal",
+  },
+  {
+    id: "10",
+    image: require("../../assets/images/balado-telur.webp"),
+    name: "Telur Balado",
+    category: "telur",
+    price: 6000,
+    cookTime: 15,
+    ingredients: [
+      "Telur rebus",
+      "Cabai merah",
+      "Bawang merah",
+      "Bawang putih",
+      "Tomat",
+    ],
+    note: "Kurangi cabai kalau tidak kuat pedas",
+  },
+  {
+    id: "11",
+    image: require("../../assets/images/kakiage-bakwan-sayur.webp"),
+    name: "Bakwan Sayur",
+    category: "camilan",
+    price: 6000,
+    cookTime: 20,
+    ingredients: [
+      "Tepung terigu",
+      "Kol",
+      "Wortel",
+      "Daun bawang",
+      "Bawang putih",
+    ],
+    note: "Enak dimakan hangat bersama cabai rawit",
+  },
+  {
+    id: "12",
+    image: require("../../assets/images/roti-bakar-cokelat.webp"),
+    name: "Roti Bakar Cokelat",
+    category: "camilan",
+    price: 5000,
+    cookTime: 5,
+    ingredients: [
+      "Roti tawar",
+      "Margarin",
+      "Meses cokelat",
+      "Susu kental manis",
+    ],
+    note: "Bisa diganti selai kacang atau keju",
   },
 ];

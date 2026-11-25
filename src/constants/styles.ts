@@ -62,6 +62,7 @@ export const styles = StyleSheet.create({
     paddingVertical: 10,
     marginTop: 12,
   },
+<<<<<<< HEAD
   resultText: { fontSize: 12, color: "#78716c", marginTop: 8 },
   emptyText: { textAlign: "center", color: "#78716c", marginTop: 24 },
 
@@ -117,10 +118,25 @@ export const styles = StyleSheet.create({
   },
   favText: { fontSize: 20, color: "#ea580c" },
   buttonSecondary: {
+=======
+
+  // MODUL 3 - style tambahan untuk layar Resep Online
+  cardImage: {
+    width: "100%",
+    height: 160,
+    borderRadius: 12,
+    marginBottom: 12,
+    backgroundColor: "#ffedd5",
+  },
+  buttonOutline: {
+    borderWidth: 1.5,
+    borderColor: "#ea580c",
+>>>>>>> d79b845 (Update aplikasi)
     paddingVertical: 10,
     borderRadius: 10,
     alignItems: "center",
     marginTop: 8,
+<<<<<<< HEAD
     borderWidth: 1,
     borderColor: "#ea580c",
   },
@@ -161,4 +177,61 @@ export const styles = StyleSheet.create({
     height: "100%",
   },
   detailText: { fontSize: 15, color: "#334155", marginBottom: 6 },
+=======
+  },
+  buttonOutlineText: {
+    color: "#ea580c",
+    fontWeight: "bold",
+  },
+  searchRow: {
+    flexDirection: "row",
+    gap: 8,
+    marginTop: 12,
+  },
+  searchInput: {
+    flex: 1,
+    backgroundColor: "#ffffff",
+    borderWidth: 1,
+    borderColor: "#fed7aa",
+    borderRadius: 10,
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    fontSize: 14,
+    color: "#0f172a",
+  },
+  searchButton: {
+    backgroundColor: "#ea580c",
+    borderRadius: 10,
+    paddingHorizontal: 16,
+    justifyContent: "center",
+  },
+  chipRow: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 8,
+    marginTop: 10,
+  },
+  chip: {
+    backgroundColor: "#ffedd5",
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 20,
+  },
+  chipActive: {
+    backgroundColor: "#ea580c",
+  },
+  chipText: {
+    fontSize: 12,
+    color: "#7c2d12",
+  },
+  chipTextActive: {
+    color: "#ffffff",
+    fontWeight: "bold",
+  },
+  emptyText: {
+    textAlign: "center",
+    color: "#78716c",
+    marginTop: 40,
+  },
+>>>>>>> d79b845 (Update aplikasi)
 });

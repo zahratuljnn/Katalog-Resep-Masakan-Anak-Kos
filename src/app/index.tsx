@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useRouter } from "expo-router";
 import { useEffect, useRef, useState } from "react";
 import {
@@ -9,6 +10,9 @@ import {
   View,
 } from "react-native";
 
+=======
+import { View, Text, FlatList, Pressable, Alert, Image } from "react-native";
+>>>>>>> d79b845 (Update aplikasi)
 import { styles } from "../constants/styles";
 import { useFavorites } from "../context/FavoritesContext";
 import { recipes } from "../data/recipes";
@@ -30,6 +34,7 @@ const getBudgetLabel = (price: number): string => {
   }
 };
 
+<<<<<<< HEAD
 // Pilihan filter kategori ("semua" ditambah ke union type RecipeCategory)
 type CategoryFilter = RecipeCategory | "semua";
 const categories: CategoryFilter[] = [
@@ -40,6 +45,57 @@ const categories: CategoryFilter[] = [
   "sayur",
   "camilan",
 ];
+=======
+// Custom function 3: dipanggil saat tombol ditekan (memakai built-in Alert)
+const showRecipe = (recipe: Recipe) => {
+  Alert.alert(recipe.name, "Bahan: " + recipe.ingredients.join(", "));
+};
+
+// Custom function 4: membuat satu kartu resep dari data (parameter -> komponen)
+const renderRecipeCard = (recipe: Recipe) => {
+  return (
+    <View style={styles.card}>
+      <Image source={recipe.image} style={styles.cardImage} resizeMode="cover" />
+      <Text style={styles.cardTitle}>{recipe.name}</Text>
+      <Text style={styles.cardInfo}>
+        {recipe.category.toUpperCase()} • {recipe.cookTime} menit •{" "}
+        {formatRupiah(recipe.price)}
+      </Text>
+
+      {/* INLINE STYLE: warna badge berubah sesuai harga (nilai dinamis) */}
+      <View
+        style={{
+          alignSelf: "flex-start",
+          backgroundColor: recipe.price <= 5000 ? "#16a34a" : "#f59e0b",
+          paddingHorizontal: 10,
+          paddingVertical: 4,
+          borderRadius: 20,
+          marginTop: 8,
+        }}
+      >
+        <Text style={{ color: "white", fontSize: 12, fontWeight: "bold" }}>
+          {getBudgetLabel(recipe.price)}
+        </Text>
+      </View>
+
+      <Text style={styles.sectionLabel}>Bahan:</Text>
+      {/* LOOP 1: map() untuk menampilkan setiap bahan */}
+      {recipe.ingredients.map((item, index) => (
+        <Text key={index} style={styles.ingredient}>
+          • {item}
+        </Text>
+      ))}
+
+      {/* Conditional rendering: catatan hanya tampil kalau ada */}
+      {recipe.note ? <Text style={styles.note}>Tips: {recipe.note}</Text> : null}
+
+      <Pressable style={styles.button} onPress={() => showRecipe(recipe)}>
+        <Text style={styles.buttonText}>Lihat Bahan</Text>
+      </Pressable>
+    </View>
+  );
+};
+>>>>>>> d79b845 (Update aplikasi)
 
 export default function Index() {
  
