@@ -1,0 +1,237 @@
+[
+  {
+    "id": "1",
+    "name": "Nasi Goreng Telur",
+    "category": "nasi",
+    "price": 8000,
+    "cookTime": 10,
+    "ingredients": [
+      "Nasi sisa semalam",
+      "Telur",
+      "Bawang putih",
+      "Kecap manis"
+    ],
+    "steps": [
+      "Cincang bawang putih, lalu tumis dengan sedikit minyak sampai harum.",
+      "Masukkan telur, aduk cepat sampai setengah matang.",
+      "Tambahkan nasi dingin, aduk rata dengan api besar.",
+      "Tuang kecap manis dan garam secukupnya, aduk sampai warnanya rata.",
+      "Angkat dan sajikan selagi hangat."
+    ],
+    "note": "Pakai nasi dingin supaya tidak lembek",
+    "image": "Nasi-Goreng-telor.jpg"
+  },
+  {
+    "id": "2",
+    "name": "Mie Instan Kuah Sayur",
+    "category": "mie",
+    "price": 6000,
+    "cookTime": 8,
+    "ingredients": ["Mie instan", "Sawi", "Telur", "Cabai rawit"],
+    "steps": [
+      "Rebus air sampai mendidih, masukkan mie instan dan sawi.",
+      "Masak sekitar 3 menit sampai mie matang.",
+      "Pecahkan telur ke dalam kuah, biarkan setengah matang.",
+      "Masukkan bumbu mie dan irisan cabai rawit, aduk pelan.",
+      "Sajikan dalam mangkuk selagi panas."
+    ],
+    "image": "mie-kuah-sayur-mie-instan-foto-resep-utama.webp",
+    "note": null
+  },
+  {
+    "id": "3",
+    "name": "Telur Dadar Kecap",
+    "category": "telur",
+    "price": 4000,
+    "cookTime": 5,
+    "ingredients": ["Telur", "Kecap manis", "Bawang merah", "Garam"],
+    "steps": [
+      "Kocok telur bersama irisan bawang merah dan sedikit garam.",
+      "Panaskan minyak, tuang telur kocok.",
+      "Masak dengan api sedang sampai kedua sisi kecokelatan.",
+      "Siram atau cocol dengan kecap manis sebelum dimakan."
+    ],
+    "note": "Cocok untuk tanggal tua",
+    "image": "telur-dadar-kecap-foto-resep-utama.webp"
+  },
+  {
+    "id": "4",
+    "name": "Tumis Kangkung",
+    "category": "sayur",
+    "price": 5000,
+    "cookTime": 7,
+    "ingredients": ["Kangkung", "Bawang putih", "Cabai", "Saus tiram"],
+    "steps": [
+      "Petik kangkung dan cuci bersih, tiriskan.",
+      "Tumis bawang putih dan cabai iris sampai harum.",
+      "Masukkan kangkung, aduk dengan api besar.",
+      "Tambahkan saus tiram dan sedikit garam, masak 1-2 menit saja agar tetap hijau."
+    ],
+    "image": "tumis-kangkung-foto-resep-utama.webp",
+    "note": null
+  },
+  {
+    "id": "5",
+    "name": "Pisang Goreng",
+    "category": "camilan",
+    "price": 7000,
+    "cookTime": 15,
+    "ingredients": ["Pisang", "Tepung terigu", "Gula", "Minyak goreng"],
+    "steps": [
+      "Campur tepung terigu, gula, dan air sampai menjadi adonan kental.",
+      "Kupas pisang, belah jika terlalu besar.",
+      "Celupkan pisang ke dalam adonan sampai terlapisi.",
+      "Goreng di minyak panas sampai kuning keemasan, lalu tiriskan."
+    ],
+    "image": "pisang-goreng-foto-resep-utama.webp",
+    "note": null
+  },
+  {
+    "id": "6",
+    "name": "Nasi Telur Ceplok Sambal",
+    "category": "nasi",
+    "price": 9000,
+    "cookTime": 10,
+    "ingredients": ["Nasi putih", "Telur", "Cabai", "Tomat", "Bawang merah"],
+    "steps": [
+      "Ulek cabai, tomat, bawang merah, dan sedikit garam jadi sambal kasar.",
+      "Tumis sambal sebentar sampai harum, sisihkan.",
+      "Goreng telur ceplok sampai matang sesuai selera.",
+      "Sajikan di atas nasi putih dengan sambal."
+    ],
+    "image": "nasi-telur-ceplok-sambal-bawang-merah-foto-resep-utama.webp",
+    "note": null
+  },
+  {
+    "id": "7",
+    "name": "Mie Goreng Telur",
+    "category": "mie",
+    "price": 7000,
+    "cookTime": 10,
+    "ingredients": [
+      "Mie instan",
+      "Telur",
+      "Kol",
+      "Bawang putih",
+      "Kecap manis"
+    ],
+    "steps": [
+      "Rebus mie sampai setengah matang, tiriskan.",
+      "Tumis bawang putih dan kol iris sampai layu.",
+      "Sisihkan sayur, orak-arik telur di wajan.",
+      "Masukkan mie, bumbu mie, dan kecap manis, aduk rata.",
+      "Masak 2 menit lagi lalu angkat."
+    ],
+    "note": "Jangan rebus mie terlalu lama supaya tidak lembek",
+    "image": "indomie-mi-goreng.webp"
+  },
+  {
+    "id": "8",
+    "name": "Sayur Bening Bayam",
+    "category": "sayur",
+    "price": 4000,
+    "cookTime": 10,
+    "ingredients": [
+      "Bayam",
+      "Jagung manis",
+      "Bawang putih",
+      "Bawang merah",
+      "Garam"
+    ],
+    "steps": [
+      "Didihkan air bersama irisan bawang putih dan bawang merah.",
+      "Masukkan jagung manis yang sudah dipotong, masak 5 menit.",
+      "Masukkan bayam, masak sebentar sampai layu.",
+      "Bumbui dengan garam dan sedikit gula, lalu angkat."
+    ],
+    "note": "Bayam cukup dimasak sebentar agar tidak pahit",
+    "image": "sayur-bening-bayam.webp"
+  },
+  {
+    "id": "9",
+    "name": "Tempe Orek Kecap",
+    "category": "sayur",
+    "price": 5000,
+    "cookTime": 15,
+    "ingredients": [
+      "Tempe",
+      "Kecap manis",
+      "Bawang merah",
+      "Bawang putih",
+      "Cabai"
+    ],
+    "steps": [
+      "Potong tempe kotak kecil, goreng sebentar sampai agak kering.",
+      "Tumis bawang merah, bawang putih, dan cabai sampai harum.",
+      "Masukkan tempe goreng dan kecap manis.",
+      "Aduk di api kecil sampai bumbu meresap dan agak mengering."
+    ],
+    "note": "Tahan sampai 2 hari, enak untuk bekal",
+    "image": "tempe-orek.webp"
+  },
+  {
+    "id": "10",
+    "name": "Telur Balado",
+    "category": "telur",
+    "price": 6000,
+    "cookTime": 15,
+    "ingredients": [
+      "Telur rebus",
+      "Cabai merah",
+      "Bawang merah",
+      "Bawang putih",
+      "Tomat"
+    ],
+    "steps": [
+      "Goreng telur rebus sebentar sampai kulitnya berkerut, tiriskan.",
+      "Haluskan cabai merah, bawang merah, bawang putih, dan tomat.",
+      "Tumis bumbu halus sampai matang dan berminyak.",
+      "Masukkan telur, aduk sampai terbalut bumbu, lalu angkat."
+    ],
+    "note": "Kurangi cabai kalau tidak kuat pedas",
+    "image": "balado-telur.webp"
+  },
+  {
+    "id": "11",
+    "name": "Bakwan Sayur",
+    "category": "camilan",
+    "price": 6000,
+    "cookTime": 20,
+    "ingredients": [
+      "Tepung terigu",
+      "Kol",
+      "Wortel",
+      "Daun bawang",
+      "Bawang putih"
+    ],
+    "steps": [
+      "Iris tipis kol, wortel, dan daun bawang.",
+      "Campur dengan tepung terigu, bawang putih halus, garam, dan air sampai adonan agak kental.",
+      "Panaskan minyak, sendokkan adonan ke dalam minyak.",
+      "Goreng sampai kuning keemasan dan renyah, lalu tiriskan."
+    ],
+    "note": "Enak dimakan hangat bersama cabai rawit",
+    "image": "kakiage-bakwan-sayur.webp"
+  },
+  {
+    "id": "12",
+    "name": "Roti Bakar Cokelat",
+    "category": "camilan",
+    "price": 5000,
+    "cookTime": 5,
+    "ingredients": [
+      "Roti tawar",
+      "Margarin",
+      "Meses cokelat",
+      "Susu kental manis"
+    ],
+    "steps": [
+      "Oles satu sisi roti dengan margarin.",
+      "Panggang di wajan antiteflon dengan api kecil sampai kecokelatan.",
+      "Balik roti, lalu taburi meses dan siram susu kental manis.",
+      "Lipat atau tumpuk dengan roti lain, lalu sajikan."
+    ],
+    "note": "Bisa diganti selai kacang atau keju",
+    "image": "roti-bakar-cokelat.webp"
+  }
+]
